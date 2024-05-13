@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Product Page </title>
+<style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .banner {
+        width: 100%;
+        height: 100vh;
+        background-image:url(bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar {
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .bg-product {
+        border: 1px;
+        padding: 10px;
+        color: rgb(127, 33, 88);
+        background-color: #3f0842;
+        border-radius: 30px;
+    }
+    .logo {
+        color: #6fa1f8;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    span {
+        color: white;
+    }
+    form {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1px 1px;
+        font-size: 15px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px) saturate(180%);
+    }
+    form input {
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: none;
+        padding: 12px 20px;
+        font-size: 15px;
+        color: rgb(97, 15, 46);
+    } 
+    ::placeholder {
+        color: rgb(18, 148, 47);
+    }
+    form button {
+        border: 0;
+        outline: none;
+        padding: 5px 20px;
+        color: rgb(5, 5, 104);
+        border-radius: 10px;
+        background: #753070;
+        cursor: pointer;
+    }
+    .navbar li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .navbar li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+    }
+    .navbar li:hover {
+        border: 1px;
+        padding: 10px;
+        color: rgb(114, 43, 98);
+        background-color: #649b86;
+        transition: 0.5s; 
+        cursor: pointer;
+        border-radius: 30px;
+    }
+    .container {
+        background: transparent;
+        padding: 10px 5%;
+        padding-bottom: 100px;
+    }
+    .container .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 20px;
+    }
+    .container .box-container .box {
+        color: rgb(54, 14, 65);
+        box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        border-radius: 20px;
+        background: transparent;
+        border: 1px solid rgb(150, 161, 66);
+        padding: 30px 20px;
+    }
+    .container .box-container .box img {
+        height: 70px;
+        border-radius: 20px;
+    }
+    .container .box-container .box h2 {
+        color: #411033;
+        font-size: large;
+        padding: 10px 0;
+    }
+    .container .box-container .box p {
+        color: white;
+        font-size: small;
+        line-height: 1.5;
+    }
+    footer {
+        background-color: #156b58;
+        margin-top: auto;
+    }
+</style>
+</head>
+<body>
+<div class="banner">
+<br>
+<div class="navbar">
+    <h1 class="logo"><span>ZOHO</span><span></span></h1>
+    <ul>
+        <li><a href=home.html> Home </a></li>
+        <li><a href="product.html" class="bg-product"> Products </a></li>
+        <li><a href="person.html"> person </a></li>
+        <li><a href="contact.html"> Contact </a></li>
+    </ul>
+    <form action="" method="get">
+        <input type="text" placeholder="Enter to Search">
+        <button type="submit"> Search </button>
+    </form>
+</div>
+<center>
+    <h1 > <font color = "lightgreen"> OUR PROJECTS </font> </h1>
+<img src="images.png" height="500" width="800">
+</center>
+</div>
+<footer>
+<center> Designed and Developed by SIVARAGUL.M 212221040155 </center>
+</footer>
+</body>
+</html>
